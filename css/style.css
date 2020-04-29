@@ -1,0 +1,50 @@
+body {
+    padding-top: 3.6em;
+    overflow-x: hidden;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+@media(max-width: 48em) {
+    nav .btn-group {
+        position: absolute;
+        top: 0;
+        right: 4em;
+    }
+}
+
+.hidden-element {
+    display: none;
+}
+
+.editProfileBtn {
+    border-radius: 12px;
+}
+
+.profileTitle {
+    border-bottom: 5px solid #f1f1f1;
+    margin-top: 5px;
+    margin-bottom: 7px;
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 28px;
+}
+
+.profileTitle-Without-Top-Border {
+    margin-top: 5px;
+    margin-bottom: 7px;
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 28px;
+}
+
+.profiledetails {
+    margin-top: 10px;
+    margin-boottom: 10px;
+    padding: 12px;
+    vertical-align: middle;
+}
+
+.profiledetails-control {
+    margin-top: 10px;
+    margin-boottom: 10px;
+    padding: 5px;
+    vertical-align: middle;
+}
